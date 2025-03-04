@@ -4,6 +4,9 @@
 
 A simple example project on how to create and communicate with microservices using AspNetCore.
 
+![microservices drawio](https://github.com/user-attachments/assets/149be176-ba91-4550-8079-6296b1f20534)
+
+
 ## Technologies
 
 - AspNetCore 9.0
