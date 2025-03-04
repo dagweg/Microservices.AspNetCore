@@ -2,6 +2,7 @@
 using Microservices.AspNetCore.ProductService.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Microservices.AspNetCore.ProductService.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    partial class ProductDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250304192119_productThumb")]
+    partial class productThumb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,7 +81,7 @@ namespace Microservices.AspNetCore.ProductService.Migrations
                             Name = "HP Pavilion 15",
                             Price = 549.99m,
                             Stock = 75,
-                            ThumbUrl = "https://hk-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c07961278_1_2.png"
+                            ThumbUrl = "https://www.costco.com/medias/sys_master/images/hb3/hb3/hf2/14407307336798.jpg"
                         });
                 });
 #pragma warning restore 612, 618
