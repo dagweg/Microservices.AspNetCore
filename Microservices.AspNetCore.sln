@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AspNetCore.AppHost", "Microservices.AspNetCore.AppHost\Microservices.AspNetCore.AppHost.csproj", "{B34C777F-D532-4EB8-A68D-31C8D2B14618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AspNetCore.OrderService", "Microservices.AspNetCore.OrderService\Microservices.AspNetCore.OrderService.csproj", "{1FC5DA07-2805-40BD-9AA6-6DE57D82A2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AspNetCore.ProductService", "Microservices.AspNetCore.ProductService\Microservices.AspNetCore.ProductService.csproj", "{78C2B86D-0894-41FD-94E1-C4BE0B5A17DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AspNetCore.ServiceDefaults", "Microservices.AspNetCore.ServiceDefaults\Microservices.AspNetCore.ServiceDefaults.csproj", "{8D3CDCC0-532C-4F21-B197-45AB15EA92EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.AspNetCore.Infra", "Microservices.AspNetCore.Infra\Microservices.AspNetCore.Infra.csproj", "{19922A3D-1948-4B5C-8EC5-1CDE8B0D4A93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B34C777F-D532-4EB8-A68D-31C8D2B14618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34C777F-D532-4EB8-A68D-31C8D2B14618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34C777F-D532-4EB8-A68D-31C8D2B14618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34C777F-D532-4EB8-A68D-31C8D2B14618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC5DA07-2805-40BD-9AA6-6DE57D82A2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC5DA07-2805-40BD-9AA6-6DE57D82A2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC5DA07-2805-40BD-9AA6-6DE57D82A2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC5DA07-2805-40BD-9AA6-6DE57D82A2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C2B86D-0894-41FD-94E1-C4BE0B5A17DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C2B86D-0894-41FD-94E1-C4BE0B5A17DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C2B86D-0894-41FD-94E1-C4BE0B5A17DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C2B86D-0894-41FD-94E1-C4BE0B5A17DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3CDCC0-532C-4F21-B197-45AB15EA92EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3CDCC0-532C-4F21-B197-45AB15EA92EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3CDCC0-532C-4F21-B197-45AB15EA92EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3CDCC0-532C-4F21-B197-45AB15EA92EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19922A3D-1948-4B5C-8EC5-1CDE8B0D4A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19922A3D-1948-4B5C-8EC5-1CDE8B0D4A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19922A3D-1948-4B5C-8EC5-1CDE8B0D4A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19922A3D-1948-4B5C-8EC5-1CDE8B0D4A93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
